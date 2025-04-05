@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #020D19;
+    color: white;
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .menu li a:hover {
+    color: #4CAF50;
+  }
+  
+  /* Menú en móviles */
+  .menuButton {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.9);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+  
+    .show {
+      display: flex;
+    }
+  
+    .menuButton {
+      display: block;
+    }
+  }

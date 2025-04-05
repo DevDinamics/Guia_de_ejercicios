@@ -5,4 +5,8 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 };
 
+module.exports = {
+  productionBrowserSourceMaps: false, // Desactiva source maps en el cliente
+};
+
 export default nextConfig;

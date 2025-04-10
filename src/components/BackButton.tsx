@@ -11,7 +11,7 @@ const BackButton: React.FC = () => {
     >
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
-        className="h-5 w-5 mr-1 group-hover:-translate-x-1 transition-transform" 
+        className="h-5 w-5 mr-2 group-hover:-translate-x-1 transition-transform" 
         viewBox="0 0 20 20" 
         fill="currentColor"
       >

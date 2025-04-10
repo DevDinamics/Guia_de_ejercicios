@@ -1,7 +1,7 @@
 export interface Exercise {
   id: number;
   title: string;
-  difficulty: 'Principiante' | 'Intermedia' | 'Avanzado';
+  difficulty: 'Principiante' | 'Intermedio' | 'Avanzado';
   muscles: string[];
   equipo: string;
   steps: string[];
@@ -15,7 +15,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       id: 1,
       title: 'Remo con Mancuerna a una Mano',
       difficulty: 'Principiante',
-      muscles: ['Espalda', 'Bíceps'],
+      muscles: ['Espalda', 'Bíceps','Hombro posterior'],
       equipo: 'Mancuerna + banco (o superficie estable)',
       steps: [
         'Apoya una mano y rodilla en un banco',
@@ -29,8 +29,8 @@ export const exercisesData: Record<string, Exercise[]> = {
     {
       id: 2,
       title: 'Remo con barra',
-      difficulty: 'Intermedia',
-      muscles: ['Espalda', 'Bíceps'],
+      difficulty: 'Intermedio',
+      muscles: ['Espalda', 'Bíceps', 'Hombro posterior'],
       equipo: 'Barra olímpica + discos (o barra hexagonal)',
       steps: [
         'Agáchate con las rodillas flexionadas',
@@ -57,18 +57,48 @@ export const exercisesData: Record<string, Exercise[]> = {
     },
     {
       id: 4,
-      title: 'Dominadas',
-      difficulty: 'Avanzado',
+      title: 'Jalón abierto al pecho',
+      difficulty: 'Intermedio',
       muscles: ['Espalda', 'Bíceps'],
-      equipo: 'Barra fija (agarre pronado o supinado).',
+      equipo: 'Polea alta + barra recta.',
       steps: [
-        'Agarra la barra con las manos separadas',
-        'Tira hacia arriba hasta que la barbilla supere la barra',
-        'Baja lentamente'
+        'Siéntate en la máquina con agarre amplio (palmas hacia adelante)',
+        'Mantén el torso recto y tira de la barra hacia el pecho',
+        'Contrae los omóplatos al bajar la barra',
+        'Regresa controladamente sin soltar tensión'
       ],
-      tip: 'Evita balancear el cuerpo',
-      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/espalda/Behind-the-Neck-Pull-Up_.webp'
+      tip: 'Evita arquear la espalda baja; usa peso moderado',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/espalda/Jalón_con_agarre_ancho.webp'
+    },
+    {
+      id: 5,
+      title: 'Pull Over con Mancuerna',
+      difficulty: 'Principiante',
+      muscles: ['Dorsales, Pectoral mayor', 'Bíceps'],
+      equipo: 'Mancuerna + banco plano.',
+      steps: [
+        'Acostado en banco, sostén la mancuerna sobre el pecho.',
+        'Bájala lentamente detrás de la cabeza (brazos semiflexionados).',
+        'Regresa a la posición inicial usando dorsales.',
+      ],
+      tip: 'No hiperextiendas hombros; controla el movimiento.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/espalda/Pull_over_con_%20mancuerna_.webp'
+    },
+    {
+      id: 6,
+      title: 'Remo en Maquina',
+      difficulty: 'Principiante',
+      muscles: ['Dorsales, Trapecios', 'Bíceps'],
+      equipo: 'Máquina de remo sentado.',
+      steps: [
+        'Siéntate erguido, agarra el triángulo con agarre neutro.',
+        'Jala hacia el abdomen bajo, codos pegados al cuerpo.',
+        'Pausa 1-2 segundos al contraer escápulas.',
+        'Regresa lentamente sin redondear espalda.'
+      ],
+      tip: '"Imagina que empujas el suelo con los talones" para activar dorsales.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/espalda/Remo_en_máquina%20.webp'
     }
   ],
-  // Añade más grupos musculares aquí
+  // Se añaden mas ejercicios
 };

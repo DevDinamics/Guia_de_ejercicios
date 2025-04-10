@@ -9,24 +9,22 @@ interface SearchBarProps {
 const SearchBar: React.FC<SearchBarProps> = ({ 
   searchTerm, 
   onSearchChange,
-  placeholder = "Busca tu ejercicio..." 
+  placeholder = "Buscar ejercicios..." 
 }) => {
   return (
-    <div className="mb-6 bg-white p-4 rounded-lg shadow">
-      <h2 className="text-lg font-medium text-gray-900 mb-3">Busca tu ejercicio</h2>
+    <div className="mb-8">
       <div className="relative">
         <input
           type="text"
           placeholder={placeholder}
-          className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all"
+          className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
         />
         {searchTerm && (
           <button
             onClick={() => onSearchChange('')}
-            className="absolute right-3 top-3 text-gray-500 hover:text-gray-700 transition-colors"
-            aria-label="Limpiar búsqueda"
+            className="absolute right-4 top-4 text-gray-500 hover:text-gray-700"
           >
             ✕
           </button>

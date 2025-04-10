@@ -55,10 +55,10 @@ const EspaldaPage = () => {
                 Principiante
               </button>
               <button
-                onClick={() => setFilters({ difficulty: 'Intermedia' })}
-                className={`px-4 py-2 rounded-md ${filters.difficulty === 'Intermedia' ? 'bg-yellow-500 text-white' : 'bg-gray-200 text-gray-800'}`}
+                onClick={() => setFilters({ difficulty: 'Intermedio' })}
+                className={`px-4 py-2 rounded-md ${filters.difficulty === 'Intermedio' ? 'bg-yellow-500 text-white' : 'bg-gray-200 text-gray-800'}`}
               >
-                Intermedia
+                Intermedio
               </button>
               <button
                 onClick={() => setFilters({ difficulty: 'Avanzado' })}

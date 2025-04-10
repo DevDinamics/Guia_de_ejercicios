@@ -18,12 +18,12 @@ export const exercisesData: Record<string, Exercise[]> = {
       muscles: ['Espalda', 'Bíceps'],
       duration: '15-20 min',
       steps: [
-        'Pisa la banda elástica con ambos pies',
-        'Agarra los extremos con las manos',
-        'Mantén la espalda recta y tira hacia tu torso',
-        'Vuelve lentamente a la posición inicial'
-      ],
-      tip: 'Mantén los codos cerca del cuerpo',
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
       imageUrl: '/ejercicios/espalda/Remo_con_mancuerna_a_una_mano.webp'
     },
     {
@@ -38,8 +38,8 @@ export const exercisesData: Record<string, Exercise[]> = {
         'Levanta la barra hacia tu torso',
         'Baja de manera controlada'
       ],
-      tip: 'No uses demasiado peso al principio',
-      imageUrl: '/images/espalda/remo-barra.jpg'
+      tip: 'Evita arquear la espalda baja, mantén el torso firme.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/espalda/Remo_con_barra.webp'
     },
     {
       id: 3,
@@ -53,7 +53,7 @@ export const exercisesData: Record<string, Exercise[]> = {
         'Baja lentamente'
       ],
       tip: 'Evita balancear el cuerpo',
-      imageUrl: '/images/espalda/dominadas.jpg'
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/espalda/Behind-the-Neck-Pull-Up_.webp'
     }
   ],
   // Añade más grupos musculares aquí

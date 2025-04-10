@@ -6,7 +6,13 @@ const nextConfig: NextConfig = {
 };
 
 module.exports = {
-  productionBrowserSourceMaps: false, // Desactiva source maps en el cliente
+  productionBrowserSourceMaps: false, // Se Desactiva source maps en el cliente
 };
+
+module.exports = {
+  images: {
+    domains: ['raw.githubusercontent.com'],
+  },
+}
 
 export default nextConfig;

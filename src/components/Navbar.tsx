@@ -4,7 +4,7 @@ import styles from './Navbar.module.css';
 const Navbar: React.FC = () => {
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>Quia Ejercicios</div>
+      <div className={styles.logo}>Guia Ejercicios</div>
       <div className={styles.links}>
         <Link href="/">Inicio</Link>
         <Link href="/espalda">Espalda</Link>

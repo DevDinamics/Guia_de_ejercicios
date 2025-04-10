@@ -9,35 +9,27 @@ const ExerciseFilter: React.FC<ExerciseFilterProps> = ({
   currentDifficulty, 
   onDifficultyChange 
 }) => {
-  const difficulties = ['Principiante', 'Intermedia', 'Avanzado'];
-
   return (
-    <div className="bg-white p-4 rounded-lg shadow mb-8">
-      <h2 className="text-lg font-medium text-gray-900 mb-4">Filtrar por dificultad</h2>
+    <div className="bg-white p-4 rounded-lg shadow mb-6">
+      <h2 className="text-lg font-medium text-gray-900 mb-3">Filtrar por dificultad</h2>
       <div className="flex flex-wrap gap-2">
-        <button
-          onClick={() => onDifficultyChange('')}
-          className={`px-3 py-1 rounded-md text-sm ${
-            !currentDifficulty ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'
-          }`}
-        >
-          Todos
-        </button>
-        {difficulties.map((difficulty) => (
+        {['', 'Principiante', 'Intermedia', 'Avanzado'].map((level) => (
           <button
-            key={difficulty}
-            onClick={() => onDifficultyChange(difficulty)}
-            className={`px-3 py-1 rounded-md text-sm ${
-              currentDifficulty === difficulty 
-                ? difficulty === 'Principiante' 
+            key={level || 'all'}
+            onClick={() => onDifficultyChange(level)}
+            className={`px-4 py-2 rounded-md text-sm transition-colors ${
+              currentDifficulty === level
+                ? level === 'Principiante'
                   ? 'bg-green-600 text-white'
-                  : difficulty === 'Intermedia'
+                  : level === 'Intermedia'
                     ? 'bg-yellow-500 text-white'
-                    : 'bg-red-600 text-white'
-                : 'bg-gray-200 text-gray-800'
+                    : level === 'Avanzado'
+                      ? 'bg-red-600 text-white'
+                      : 'bg-blue-600 text-white'
+                : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
             }`}
           >
-            {difficulty}
+            {level || 'Todos'}
           </button>
         ))}
       </div>

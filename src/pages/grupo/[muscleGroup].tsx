@@ -3,37 +3,43 @@ import { useRouter } from 'next/router';
 import { exercisesData } from '../../Data/exercises';
 import ExerciseCard from '../../components/ExerciseCard';
 import ExerciseFilter from '../../components/ExerciseFilter';
-import Link from 'next/link';
+import SearchBar from '../../components/SearchBar';
+import BackButton from '../../components/BackButton';
 import Head from 'next/head';
 
-export default function MuscleGroupPage() {
+const MuscleGroupPage: React.FC = () => {
   const router = useRouter();
   const { muscleGroup } = router.query;
   const [difficulty, setDifficulty] = useState<string>('');
+  const [searchTerm, setSearchTerm] = useState<string>('');
 
   if (!router.isReady) return <div>Cargando...</div>;
   if (!muscleGroup || typeof muscleGroup !== 'string') {
-    return <div>Grupo no encontrado</div>;
+    return <div>Grupo muscular no encontrado</div>;
   }
 
   const exercises = exercisesData[muscleGroup] || [];
-  const filteredExercises = difficulty
-    ? exercises.filter(ex => ex.difficulty === difficulty)
-    : exercises;
+  
+  const filteredExercises = exercises
+    .filter(ex => !difficulty || ex.difficulty === difficulty)
+    .filter(ex => 
+      ex.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      ex.steps.some(step => step.toLowerCase().includes(searchTerm.toLowerCase())) ||
+      ex.muscles.some(m => m.toLowerCase().includes(searchTerm.toLowerCase()))
+    );
 
   return (
     <>
       <Head>
-        <title>Ejercicios de {muscleGroup}</title>
+        <title>Ejercicios de {muscleGroup} | Guía Fitness</title>
+        <meta name="description" content={`Ejercicios para ${muscleGroup}`} />
       </Head>
-      
-      <div className="min-h-screen bg-gray-50 py-8 px-4">
-        <div className="max-w-7xl mx-auto">
-          <Link href="/" className="inline-block mb-6 text-blue-600 hover:underline">
-            ← Volver al inicio
-          </Link>
+
+      <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto">
+          <BackButton />
           
-          <h1 className="text-3xl font-bold capitalize mb-2">
+          <h1 className="text-3xl font-bold text-gray-900 mb-2 capitalize">
             Ejercicios de {muscleGroup}
           </h1>
           
@@ -42,13 +48,36 @@ export default function MuscleGroupPage() {
             onDifficultyChange={setDifficulty}
           />
           
+          <SearchBar 
+            searchTerm={searchTerm}
+            onSearchChange={setSearchTerm}
+            placeholder={`Buscar en ${muscleGroup}...`}
+          />
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredExercises.map((exercise) => (
-              <ExerciseCard key={exercise.id} {...exercise} />
-            ))}
+            {filteredExercises.length > 0 ? (
+              filteredExercises.map((exercise) => (
+                <ExerciseCard key={exercise.id} {...exercise} />
+              ))
+            ) : (
+              <div className="col-span-full text-center py-12">
+                <p className="text-gray-500 mb-4">No se encontraron ejercicios con ese nombre</p>
+                <button
+                  onClick={() => {
+                    setDifficulty('');
+                    setSearchTerm('');
+                  }}
+                  className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+                >
+                  Mostrar todos los ejercicios
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
     </>
   );
-}
+};
+
+export default MuscleGroupPage;

@@ -27,7 +27,7 @@ const MuscleGroupPage: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Ejercicios de {muscleGroup} | Guía Fitness</title>
+        <title>Ejercicios de {muscleGroup} | Guía Fitgo</title>
       </Head>
 
       <div className="min-h-screen bg-gray-50 py-8 px-4">

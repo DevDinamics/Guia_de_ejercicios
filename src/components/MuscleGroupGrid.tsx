@@ -2,14 +2,14 @@ import React from 'react';
 import Link from 'next/link';
 
 const muscleGroups = [
-  { name: 'Abdominales', icon: '🔄', count: 15 },
-  { name: 'Bíceps', icon: '💪', count: 12 },
-  { name: 'Espalda', icon: '🧱', count: 18 },
-  { name: 'Gemelos', icon: '🦵', count: 8 },
-  { name: 'Hombro', icon: '🏋️', count: 14 },
-  { name: 'Pectorales', icon: '🏋️‍♂️', count: 16 },
-  { name: 'Pierna', icon: '🦿', count: 20 },
-  { name: 'Tríceps', icon: '💪', count: 10 },
+  { name: 'Abdominales', icon: '', count: 15 },
+  { name: 'Bíceps', icon: '', count: 12 },
+  { name: 'Espalda', icon: '', count: 14 },
+  { name: 'Gemelos', icon: '', count: 8 },
+  { name: 'Hombro', icon: '', count: 14 },
+  { name: 'Pectorales', icon: '', count: 16 },
+  { name: 'Pierna', icon: '', count: 20 },
+  { name: 'Tríceps', icon: '', count: 10 },
 ];
 
 export default function MuscleGroupGrid() {
@@ -26,7 +26,7 @@ export default function MuscleGroupGrid() {
               <span className="text-3xl mr-4">{group.icon}</span>
               <div>
                 <h3 className="text-lg font-medium">{group.name}</h3>
-                <p className="text-sm text-gray-500">{group.count} ejercicios</p>
+                <p className="text-sm text-gray-500">{group.count} Ejercicios</p>
               </div>
             </div>
           </div>

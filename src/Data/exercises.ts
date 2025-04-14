@@ -221,7 +221,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Elevacion_lateral_con_mancuerna_.webp'
     },
     {
-      id: 1,
+      id: 3,
       title: 'Elevación frontal con barra',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -236,7 +236,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Elevaciones_frontales_con_barra.webp'
     },
     {
-      id: 1,
+      id: 4,
       title: 'Elevaciones frontales con polea baja',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -251,7 +251,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Elevaciones_frontales_con_cable_a_una_mano.webp'
     },
     {
-      id: 1,
+      id: 5,
       title: 'Elevaciones posteriores con mancuerna',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -266,7 +266,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Elevaciones_posteriores_para_hombros_%22pájaro%22.webp'
     },
     {
-      id: 1,
+      id: 6,
       title: 'Elevaciones frontales con mancuerna a dos manos',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -281,7 +281,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Elevación%20frontal_con_mancuerna_a_dos_manos%20.webp'
     },
     {
-      id: 1,
+      id: 7,
       title: 'Elevaciones laterales con polea baja',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -296,7 +296,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Elevación%20lateral%20con%20cable%20a%20una%20mano.webp'
     },
     {
-      id: 1,
+      id: 8,
       title: 'Elevaciones frontales con mancuerna unilateral',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -311,7 +311,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Elevación_frontal_con%20_mancuerna.webp'
     },
     {
-      id: 1,
+      id: 9,
       title: 'Elevación frontal con mancuerna agarre neutro',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -326,7 +326,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Elevación_frontal_con_mancuernas_agarre_neutro.webp'
     },
     {
-      id: 1,
+      id: 10,
       title: 'Press Militar con barra',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -341,7 +341,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Press_militar_de_pie.webp'
     },
     {
-      id: 1,
+      id: 11,
       title: 'Press Militar con mancuerna',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -356,7 +356,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Press_Militar_con_mancuernas.webp'
     },
     {
-      id: 1,
+      id: 12,
       title: 'Press de hombro con mancuerna',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -371,7 +371,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Press_de_hombro_con_mancuerna_.webp'
     },
     {
-      id: 1,
+      id: 13,
       title: 'Press de hombro en maquina',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -386,7 +386,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Press_de_hombro_en_maquina_smith.webp'
     },
     {
-      id: 1,
+      id: 14,
       title: 'Press de hombro tras nuca',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -401,7 +401,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Press_militar_de_pie_tras_nuca.webp'
     },
     {
-      id: 1,
+      id: 15,
       title: 'Press de hombro con barra',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -416,7 +416,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/hombro/Press_militar_sentado_con_barra.webp'
     },
     {
-      id: 1,
+      id: 16,
       title: 'Press de hombro tras nuca sentado',
       difficulty: 'Avanzado',
       muscles: ['Espalda', 'Bíceps','Hombro posterior'],
@@ -615,6 +615,21 @@ export const exercisesData: Record<string, Exercise[]> = {
         ],
       tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pectorales/Push-Ups_.webp'
+    },
+    {
+      id: 13,
+      title: 'Fondos en paralelas',
+      difficulty: 'Intermedio',
+      muscles: ['Espalda', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pectorales/Parallel-Dip-Bar_.webp'
     },
 
   ],
@@ -960,7 +975,7 @@ export const exercisesData: Record<string, Exercise[]> = {
 
     {
       id: 22,
-      title: 'Extensión de piernas en maquina',
+      title: 'Leg Extensions en maquina',
       difficulty: 'Avanzado',
       muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
       equipo: 'Mancuerna + banco (o superficie estable)',
@@ -1008,7 +1023,7 @@ export const exercisesData: Record<string, Exercise[]> = {
     {
       id: 25,
       title: 'Femoral acostado en maquina',
-      difficulty: 'Avanzado',
+      difficulty: 'Principiante',
       muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
       equipo: 'Mancuerna + banco (o superficie estable)',
       steps: [
@@ -1024,7 +1039,7 @@ export const exercisesData: Record<string, Exercise[]> = {
     {
       id: 26,
       title: 'Abductor en maquina',
-      difficulty: 'Avanzado',
+      difficulty: 'Principiante',
       muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
       equipo: 'Mancuerna + banco (o superficie estable)',
       steps: [
@@ -1037,12 +1052,743 @@ export const exercisesData: Record<string, Exercise[]> = {
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Seated-Hip-Abduction-Machine_.webp'
     },
 
+    {
+      id: 27,
+      title: 'Leg Curl sentado en maquina',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Seated-Leg-Curl_.webp'
+    },
 
+    {
+      id: 28,
+      title: 'Peso Muerto a una pierna',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Single-Leg-Bodyweight-Deadlift_.webp'
+    },
 
+    {
+      id: 29,
+      title: 'Leg Extensions a una pierna',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Single-Leg-Extension_.webp'
+    },
+    {
+      id: 30,
+      title: 'Glute Bridge a una pierna',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Single-Leg-Glute-Bridge_.webp'
+    },
 
+    {
+      id: 31,
+      title: 'Sentadilla Libre',
+      difficulty: 'Avanzado',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Squat_.webp'
+    },
 
+    {
+      id: 32,
+      title: 'Abducción en polea baja',
+      difficulty: 'Intermedio',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Standing-Cable-Abduction_.webp'
+    },
 
+    {
+      id: 33,
+      title: 'Patada de glúteo en polea baja',
+      difficulty: 'Intermedio',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Standing-Cable-Kickback_.webp'
+    },
 
+    {
+      id: 34,
+      title: 'Sentadiolla Isometrica',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Wall-Sit_.webp'
+    },
+
+  //////----BICEPS----//////
+
+  ],
+
+  bíceps:[
+    {
+      id: 1,
+      title: 'Curl de bíceps con mancuerna',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Alternating-Dumbbell-Curl_.webp'
+    },
+
+    {
+      id: 2,
+      title: 'Curl de bíceps con Barra',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Barbell-Curl_.webp'
+    },
+
+    {
+      id: 3,
+      title: 'Curl de bíceps con Barra',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Alternating-Dumbbell-Curl_.webp'
+    },
+
+    {
+      id: 4,
+      title: 'Curl Concentrado',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Dumbbell-Concentration-Curl_.webp'
+    },
+
+    {
+      id: 5,
+      title: 'Curl con Barra Z',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/EZ-Barbell-Curl_.webp'
+    },
+
+    {
+      id: 6,
+      title: 'Curl Predicador',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/EZ-Barbell-Preacher-Curl_.webp'
+    },
+
+    {
+      id: 7,
+      title: 'Curl de biceps agarre neutro',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Hammer-Curl_.webp'
+    },
+
+    {
+      id: 8,
+      title: 'Curl de biceps en banco inclinado',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Incline-Dumbbell-Curl.webp'
+    },
+
+    {
+      id: 9,
+      title: 'Curl de biceps agarre invertido',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Reverse-Barbell-Curl_.webp'
+    },
+
+    {
+      id: 10,
+      title: 'Curl de biceps con cuerda',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Rope-Cable-Curl_.webp'
+    },
+
+    {
+      id: 11,
+      title: 'Curl de muñeca sentado',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Seated-Barbell-Wrist-Curl_.webp'
+    },
+
+    {
+      id: 12,
+      title: 'Curl de muñeca agarre invertido',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Seated-Barbell-Wrist-Extension_.webp'
+    },
+
+    {
+      id: 13,
+      title: 'Curl de biceps polea baja',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Single-Arm-Low-Pulley-Cable-Curl_.webp'
+    },
+
+    {
+      id: 14,
+      title: 'Curl de biceps en polea alta',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Standing-High-Pulley-Cable-Curl_.webp'
+    },
+
+    {
+      id: 15,
+      title: 'Curl de biceps con barra polea baja',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Straight-Bar-Low-Pulley-Cable-Curl_.webp'
+    },
+  ],
+                         //////----TRICEPS----//////
+  tríceps:[
+    {
+      id: 1,
+      title: 'Medios fondos',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Bench-Dips_.webp'
+    },
+
+    {
+      id: 2,
+      title: 'Extension de triceps con cuerda',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Cable-Rope-Pushdown_.webp'
+    },
+    {
+      id: 3,
+      title: 'Press California',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Close-Grip-Bench-Press_.webp'
+    },
+    {
+      id: 4,
+      title: 'Copa a 2 manos',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Dumbbell-Overhead-Triceps-Extension_99242f13-.webp'
+    },
+
+    {
+      id: 5,
+      title: 'Extensión posterior de triceps',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Kickback_.webp'
+    },
+
+    {
+      id: 6,
+      title: 'Press Frances con mancuerna',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Lying-Dumbbell-Triceps-Extension_.webp'
+    },
+    {
+      id: 7,
+      title: 'Press Frances con barra Z',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Lying-Triceps-Extension_.webp'
+    },
+    {
+      id: 8,
+      title: 'Fondos en paralelas',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Parallel-Dip-Bar_.webp'
+    },
+
+    {
+      id: 9,
+      title: 'Extensiones con barra agarre invertido',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Reverse-Grip-Cable-Triceps-.webp'
+    },
+
+    {
+      id: 10,
+      title: 'Extensión de tricep sentado con barra Z',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Seated-Barbell-French-Press_.webp'
+    },
+
+    {
+      id: 11,
+      title: 'Extensión de tricep a una mano en polea',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Single-Arm-Cable-Triceps-Extension-with-.webp'
+    }, 
+    {
+      id: 12,
+      title: 'Extensión de tricep a una mano en polea agarre invertido',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Single-Arm-Cable-Triceps-Extension_.webp'
+    },  
+    {
+      id: 13,
+      title: 'Extensión de tricep con barra en polea alta',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/triceps/Triceps-Pressdown_.webp'
+    },  
+  ],
+
+  abdominales:[
+    {
+      id: 1,
+      title: 'Crunch con piernas flexionadas',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/abdominales/Bent-Knee-Reverse-Crunch_.webp'
+    }, 
+
+    {
+      id: 2,
+      title: 'Crunch',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/abdominales/Crunch_.webp'
+    }, 
+    {
+      id: 3,
+      title: 'Elevación de piernas en suspensión',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/abdominales/Hanging-Leg-Raise_.webp'
+    }, 
+
+    {
+      id: 4,
+      title: 'Crunch con brazos extendidos',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/abdominales/Long-Arm-Crunch_.webp'
+    }, 
+
+    {
+      id: 5,
+      title: 'Crunch lateral',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/abdominales/Oblique-Crunch_.webp'
+    }, 
+
+    {
+      id: 6,
+      title: 'Planchas',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/abdominales/Plank_.webp'
+    }, 
+    {
+      id: 7,
+      title: 'Crunch en polea alta',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/abdominales/Rope-Ab-Pulldown_.webp'
+    }, 
+    {
+      id: 8,
+      title: 'Planchas Dinamicas',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/6a503edb92efb3fdc763103fc624b037fd40bc24/abdominales/plank-get-ups.svg'
+    }, 
+  ],
+  gemelos: [
+    {
+      id: 1,
+      title: 'Elevación de talon sentado',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/gemelos/Seated-Calf-Raise_8c8641b2-10f2-4dc8-9adb-8d80fd1a16d0_600x600.webp'
+    },
+
+    {
+      id: 2,
+      title: 'Elevación de talón de pie',
+      difficulty: 'Principiante',
+      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
+      equipo: 'Mancuerna + banco (o superficie estable)',
+      steps: [
+        'Apoya una mano y rodilla en un banco',
+        'Agarra la mancuerna con la mano libre',
+        'Mantén la espalda recta y lleva el peso hacia tu cadera',
+        'Baja controladamente a la posición inicial'
+        ],
+      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/gemelos/Standing-Calf-Raise_61746b47-98aa-49ee-bb97-5a19562592b9_600x600.webp'
+    },
   ]
+
+
   // Se añaden mas ejercicios
 };

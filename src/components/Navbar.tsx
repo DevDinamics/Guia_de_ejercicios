@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-black/70 backdrop-blur-sm py-4 px-6 flex justify-between items-center sticky top-0 z-50 border-b border-white/10">
       <div className="flex items-center">
         <Image 
-          src="./images/logo_fitgo.png" 
+          src="/images/logo_fitgo.png" 
           alt="Logo de la marca"
           width={70} 
           height={70}

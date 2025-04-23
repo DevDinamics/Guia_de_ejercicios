@@ -16,7 +16,7 @@ const AboutPage = () => {
           <div className="flex justify-center mb-8">
             <div className="w-32 h-32 relative">
               <Image
-                src="/images/logo_Fitgo.png" 
+                src="/images/logo_fitgo.png" 
                 alt="Logo Fitgo"
                 fill
                 className="object-contain"

@@ -10,7 +10,6 @@ export default function Home() {
       <Head>
         <title>Guía de Ejercicios Fitness</title>
         <meta name="description" content="Aprenda ejercicios adecuados" />
-        {/* Añade el favicon si lo tienes */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
       

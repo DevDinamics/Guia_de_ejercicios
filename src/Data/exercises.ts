@@ -1,7 +1,7 @@
 export interface Exercise {
   id: number;
   title: string;
-  difficulty: 'Principiante' | 'Intermedio' | 'Avanzado' | 'Principiante-Intermedio' | 'Intermedio-Avanzado';
+  difficulty: 'Principiante' | 'Intermedio' | 'Avanzado';
   muscles: string[];
   equipo: string;
   steps: string[];

@@ -4,7 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className="antialiased">
+        <link rel="icon" href="images/logo_Fitgo.png" />
+        <body className="antialiased">
         <Main />
         <NextScript />
       </body>

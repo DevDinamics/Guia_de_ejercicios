@@ -7,7 +7,7 @@ const BackButton: React.FC = () => {
   return (
     <button 
       onClick={() => router.push('/')}
-      className="flex items-center text-blue-600 hover:text-blue-800 transition-colors mb-6 group"
+      className="flex items-center text-black hover:text-[#FFA100] transition-colors mb-6 group"
     >
       <svg 
         xmlns="http://www.w3.org/2000/svg" 

@@ -1197,7 +1197,7 @@ export const exercisesData: Record<string, Exercise[]> = {
         'Baja controladamente a la posición inicial'
         ],
       tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
-      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Alternating-Dumbbell-Curl_.webp'
+      imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/bicepcs/Alternating-Dumbbell-Cul_.webp'
     },
 
     {

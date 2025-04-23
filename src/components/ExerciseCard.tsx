@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 
 interface ExerciseCardProps {
@@ -12,6 +12,17 @@ interface ExerciseCardProps {
   imageUrl?: string;
 }
 
+const FacebookLoader = () => (
+  <div className="absolute inset-0 overflow-hidden">
+    <div className="h-full w-full bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100 animate-shimmer" 
+         style={{
+           backgroundSize: '200% 100%',
+           animation: 'shimmer 1.5s infinite linear'
+         }}>
+    </div>
+  </div>
+);
+
 const ExerciseCard: React.FC<ExerciseCardProps> = ({
   title,
   difficulty,
@@ -21,15 +32,17 @@ const ExerciseCard: React.FC<ExerciseCardProps> = ({
   tip,
   imageUrl
 }) => {
-  // CAMBIO: Reemplacé los colores de dificultad (verde, amarillo, rojo) con negro
+  const [isLoading, setIsLoading] = useState(true);
+  const [imageError, setImageError] = useState(false);
+
   const difficultyColors = {
-    Principiante: 'bg-black',  // Antes: bg-green-600
-    Intermedio: 'bg-black',    // Antes: bg-yellow-500
-    Avanzado: 'bg-black'       // Antes: bg-red-600
+    Principiante: 'bg-black',
+    Intermedio: 'bg-black',
+    Avanzado: 'bg-black'
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 h-full flex flex-col font-sans">
       {/* Cabecera */}
       <div className={`${difficultyColors[difficulty]} p-4 text-white`}>
         <h2 className="text-xl font-bold">{title}</h2>
@@ -51,24 +64,32 @@ const ExerciseCard: React.FC<ExerciseCardProps> = ({
           </p>
         </div>
         
-        {/* Imagen */}
+        {/* Imagen con Loader al estilo Facebook */}
         {imageUrl && (
-          <div className="relative h-48 w-full mb-4 rounded-md overflow-hidden flex-shrink-0">
-            {imageUrl.startsWith('http') ? (
-              <img
-                src={imageUrl}
-                alt={title}
-                className="object-cover w-full h-full"
-                loading="lazy"
-              />
-            ) : (
-              <Image
-                src={imageUrl}
-                alt={title}
-                layout="fill"
-                objectFit="cover"
-                className="hover:scale-105 transition-transform duration-300"
-              />
+          <div className="relative aspect-[4/3] w-full mb-4 rounded-md overflow-hidden">
+            {isLoading && !imageError && <FacebookLoader />}
+            
+            <Image
+              src={imageUrl}
+              alt={`Ejercicio ${title}`}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className={`object-cover transition-all duration-300 ${
+                isLoading ? 'opacity-0' : 'opacity-100 hover:scale-105'
+              }`}
+              quality={85}
+              unoptimized={imageUrl.startsWith('http')}
+              onLoadingComplete={() => setIsLoading(false)}
+              onError={() => {
+                setIsLoading(false);
+                setImageError(true);
+              }}
+            />
+            
+            {imageError && (
+              <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                <span className="text-gray-400 text-sm">Ups.. imagen no disponible</span>
+              </div>
             )}
           </div>
         )}
@@ -80,13 +101,13 @@ const ExerciseCard: React.FC<ExerciseCardProps> = ({
             {steps.map((step, index) => (
               <li key={index} className="flex items-start">
                 <span className="mr-2">📌</span>
-                <span>{step}</span>
+                <span className="text-gray-700">{step}</span>
               </li>
             ))}
           </ul>
         </div>
         
-        {/* CAMBIO: Reemplacé el azul (bg-blue-50, border-blue-500, text-blue-800) con naranja */}
+        {/* Consejo */}
         <div className="bg-orange-50 p-3 rounded-md border-l-4 border-orange-500 mt-auto">
           <p className="text-orange-800">
             <span className="font-medium">💡 Consejo:</span> {tip}

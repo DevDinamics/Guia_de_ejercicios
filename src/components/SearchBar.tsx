@@ -17,14 +17,20 @@ const SearchBar: React.FC<SearchBarProps> = ({
         <input
           type="text"
           placeholder={placeholder}
-          className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          className="w-full p-4 border-2 border-gray-900 rounded-lg 
+                    focus:ring-2 focus:ring-gray-900 focus:border-gray-900
+                    transition-all duration-200 ease-in-out
+                    placeholder-gray-500 outline-none"
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
         />
         {searchTerm && (
           <button
             onClick={() => onSearchChange('')}
-            className="absolute right-4 top-4 text-gray-500 hover:text-gray-700"
+            className="absolute right-4 top-1/2 transform -translate-y-1/2
+                      text-gray-500 hover:text-gray-900 transition-colors
+                      bg-gray-100 hover:bg-gray-200 rounded-full w-6 h-6 flex items-center justify-center"
+            aria-label="Limpiar búsqueda"
           >
             ✕
           </button>

@@ -6,13 +6,13 @@ const Navbar = () => {
   return (
     <nav className="bg-black/95 backdrop-blur-sm py-4 px-6 flex justify-between items-center sticky top-0 z-50 border-b border-white/10">
       <div className="flex items-center">
-        <Image 
-          src="/images/logo_fitgo.png" 
-          alt="Logo de la marca"
-          width={70} 
-          height={70}
-          className="rounded-full" 
-        />
+      <Image
+      src="https://github.com/DevDinamics/baco_de_imagenes_guia/blob/main/images/logo_fitgo.png?raw=true"
+      alt="Logo de la marca"
+      width={70}
+      height={70}
+      className="rounded-full"
+    />
         <span className="text-xl font-bold text-white">Fitgo</span> 
       </div>
       

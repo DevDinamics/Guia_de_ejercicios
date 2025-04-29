@@ -1,18 +1,17 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-};
-
-module.exports = {
-  productionBrowserSourceMaps: false, // Se Desactiva source maps en el cliente
-};
-
-module.exports = {
+  productionBrowserSourceMaps: false, 
   images: {
-    domains: ['raw.githubusercontent.com'],
+    domains: [
+      'raw.githubusercontent.com', 
+      'github.com' 
+    ],
+    
+    minimumCacheTTL: 60, 
+    formats: ['image/webp'], 
   },
+  // Otras configuraciones globales aquí
 }
 
-export default nextConfig;
+module.exports = nextConfig

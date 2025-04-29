@@ -5,6 +5,9 @@ import ExerciseCard from '../../components/ExerciseCard';
 import SearchBar from '../../components/SearchBar';
 import BackButton from '../../components/BackButton';
 import Head from 'next/head';
+import Navbar from '../../components/Navbar';
+
+
 
 const MuscleGroupPage: React.FC = () => {
   const router = useRouter();
@@ -30,6 +33,8 @@ const MuscleGroupPage: React.FC = () => {
         <title>Ejercicios de {muscleGroup} | Guía Fitgo</title>
       </Head>
 
+      <Navbar />
+
       <div className="min-h-screen bg-gray-50 py-8 px-4">
         <div className="max-w-6xl mx-auto">
           <BackButton />
@@ -54,7 +59,7 @@ const MuscleGroupPage: React.FC = () => {
                 <p className="text-gray-500 mb-4">No se encontraron ejercicios</p>
                 <button
                   onClick={() => setSearchTerm('')}
-                  className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+                  className=" px-4 py-2 bg-black text-white rounded-md hover:bg-[#ffa100] transition-colors"
                 >
                   Mostrar todos
                 </button>

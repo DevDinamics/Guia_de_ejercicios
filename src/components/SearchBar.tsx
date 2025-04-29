@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 interface SearchBarProps {
   searchTerm: string;
   onSearchChange: (term: string) => void;

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <nav className="bg-black/70 backdrop-blur-sm py-4 px-6 flex justify-between items-center sticky top-0 z-50 border-b border-white/10">
+    <nav className="bg-black/95 backdrop-blur-sm py-4 px-6 flex justify-between items-center sticky top-0 z-50 border-b border-white/10">
       <div className="flex items-center">
         <Image 
           src="/images/logo_fitgo.png" 
@@ -13,7 +13,7 @@ const Navbar = () => {
           height={70}
           className="rounded-full" 
         />
-        <span className="text-xl font-bold text-white">Fitgoooo</span> 
+        <span className="text-xl font-bold text-white">Fitgo</span> 
       </div>
       
       <div className="flex space-x-6">
@@ -21,7 +21,7 @@ const Navbar = () => {
         <Link href="#" className="font-black text-white hover:text-[#FFA100] transition-colors">
           Blog
         </Link>
-        <Link href="./Acerca_de" className="font-black text-white hover:text-[#FFA100] transition-colors">
+        <Link href="../Acerca_de" className="font-black text-white hover:text-[#FFA100] transition-colors">
           Acerca de la guía
         </Link>
       </div>

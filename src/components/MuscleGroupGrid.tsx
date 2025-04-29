@@ -21,17 +21,17 @@ export default function MuscleGroupGrid() {
           href={`/grupo/${group.name.toLowerCase()}`}
           passHref
         >
-          <div className="bg-[#FFA100] p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer">
+          <div className="bg-[#FFFFFF] p-6 rounded-lg shadow-md  hover:bg-[#FFA100] hover:shadow-lg cursor-pointer">
             <div className="flex items-center cursor-pointer">
               <div className="flex-1">
                 {}
                 {}
-                <h3 className="text-lg font-bold text-white hover:text-black">
+                <h3 className="text-lg font-bold text-black">
                   {group.name}
                 </h3>
-                <p className="text-sm text-white">{group.count} Ejercicios</p>
+                <p className="text-sm text-black">{group.count} Ejercicios</p>
               </div>
-              <span className="text-3xl text-white ml-2 hover:text-black">{group.icon}</span>{" "}
+              <span className="text-3xl text-black ml-2 hover:translate-x-1 transition-transform duration-200 ">{group.icon}</span>{" "}
               {}
             </div>
           </div>

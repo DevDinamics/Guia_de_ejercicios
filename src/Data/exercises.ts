@@ -148,7 +148,7 @@ export const exercisesData: Record<string, Exercise[]> = {
       title: 'Remo con barra agarre supinado',
       difficulty: 'Intermedio',
       muscles: ['Dorsales, bíceps', 'trapecios'],
-      equipo: 'Polea alta + barra amplia',
+      equipo: 'Barra',
       steps: [
         'Torso ~45°, agarre supinado (palmas arriba).',
         'Jala la barra al ombligo (codos pegados al cuerpo).',

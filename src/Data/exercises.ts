@@ -754,16 +754,16 @@ export const exercisesData: Record<string, Exercise[]> = {
     {
       id: 9,
       title: 'Burpees',
-      difficulty: 'Principiante',
-      muscles: ['Espalda', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Piernas, pecho, core, cardiovascular'],
+      equipo: 'Peso corporal',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Desde pie, baja en sentadilla y apoya las manos en el suelo',
+        'Lanza los pies hacia atrás y haz una flexión',
+        'Recupera la posición de sentadilla',
+        'Salta hacia arriba con las manos extendidas'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Mantén un ritmo constante, prioriza la técnica.',
       imageUrl: 'https://github.com/DevDinamics/baco_de_imagenes_guia/blob/main/pierna/Burpees_.png?raw=true'
     },
 
@@ -771,15 +771,15 @@ export const exercisesData: Record<string, Exercise[]> = {
       id: 10,
       title: 'Donkey Kicks',
       difficulty: 'Principiante',
-      muscles: ['Espalda', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      muscles: ['Glúteo mayor'],
+      equipo: 'Mancuerna, Peso corporal o banda de resistencia',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Colócate en cuatro apoyos (manos y rodillas)',
+        'Eleva una pierna hacia atrás con la rodilla flexionada en 90°',
+        'Aprieta el glúteo arriba',
+        'Baja sin tocar el suelo y repite'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Evita arquear la espalda, el movimiento sale del glúteo.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Donkey-Kicks_.webp'
     },
 
@@ -787,63 +787,63 @@ export const exercisesData: Record<string, Exercise[]> = {
       id: 11,
       title: 'Goblet Squat',
       difficulty: 'Principiante',
-      muscles: ['Espalda', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      muscles: ['Cuádriceps, glúteos, core'],
+      equipo: 'Mancuerna o kettlebell',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Sostén una mancuerna frente al pecho con ambas manos',
+        'Separa los pies al ancho de los hombros',
+        'Baja en sentadilla manteniendo el torso erguido',
+        'Sube empujando con los talones'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Ideal para aprender la técnica de sentadilla con carga.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Dumbbell-Goblet-Squat_.webp'
     },
 
     {
       id: 12,
       title: 'Peso muerto rumano con mancuerna',
-      difficulty: 'Principiante',
-      muscles: ['Espalda', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Isquiotibiales, glúteos, espalda baja'],
+      equipo: 'Mancuernas',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Sujeta una mancuerna en cada mano frente a los muslos',
+        'Flexiona ligeramente las rodillas',
+        'Inclina el torso hacia adelante bajando las mancuernas por el frente',
+        'Sube contrayendo glúteos e isquiotibiales'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Mantén la espalda recta y las mancuernas pegadas al cuerpo.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Dumbbell-Romanian-Deadlift_.webp'
     },
 
     {
       id: 13,
       title: 'Step Ups',
-      difficulty: 'Avanzado',
-      muscles: ['Espalda', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Cuádriceps, glúteos, core'],
+      equipo: 'Banco, cajón o plataforma + opcional mancuernas',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Coloca un pie sobre una plataforma elevada',
+        'Empuja con ese pie para subir completamente',
+        'Baja de forma controlada',
+        'Alterna piernas'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Evita impulsarte con la pierna trasera.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Dumbbell-Step-Up_.webp'
     },
 
     {
       id: 14,
       title: 'Fire Hydrant',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Principiante',
+      muscles: ['Glúteo medio, glúteo mayor'],
+      equipo: 'Peso corporal o banda de resistencia',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Colócate en posición de cuatro apoyos',
+        'Eleva la pierna hacia el costado sin mover el torso',
+        'Mantén la rodilla flexionada',
+        'Regresa controladamente'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'No gires la cadera, el torso debe permanecer estable.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Fire-Hydrant_.webp'
     },
 
@@ -851,174 +851,174 @@ export const exercisesData: Record<string, Exercise[]> = {
       id: 15,
       title: 'Sentadila Frontal con barra',
       difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      muscles: ['Cuádriceps, glúteos, core'],
+      equipo: 'Barra',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Coloca la barra sobre los hombros frontales (clave: codos altos)',
+        'Baja en sentadilla manteniendo el torso recto',
+        'Empuja con los talones para subir',
+        'Mantén los codos al frente durante todo el movimiento'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Requiere buena movilidad de muñeca y tobillo; no inclines el tronco.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Front-Squat_.webp'
     },
 
     {
       id: 16,
       title: 'Buenos Días con barra',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Isquiotibiales, glúteos, espalda baja'],
+      equipo: 'Barra',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Coloca la barra sobre los trapecios (como en sentadilla)',
+        'Flexiona ligeramente las rodillas',
+        'Inclina el torso hacia adelante manteniendo la espalda recta',
+        'Regresa contrayendo glúteos e isquios'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Comienza con poco peso y controla el movimiento para evitar lesiones lumbares.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Good-Morning_.webp'
     },
 
     {
       id: 17,
       title: 'Hack Squat',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Cuádriceps, glúteos'],
+      equipo: 'Máquina Hack Squat',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Apoya la espalda en la máquina y coloca los hombros bajo los soportes',
+        'Separa los pies a la anchura de los hombros',
+        'Baja controladamente en sentadilla',
+        ' Sube empujando con los talones'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Mantén la espalda totalmente apoyada en el respaldo y no bloquees las rodillas arriba.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Hack-Squat_.webp'
     },
 
     {
       id: 18,
       title: 'Saltos pliometricos',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Cuádriceps, glúteos, core'],
+      equipo: 'Caja, banco o plataforma estable',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Ponte en posición de sentadilla parcial',
+        'Impúlsate y salta sobre la plataforma',
+        'Aterriza suave con ambas piernas',
+        'Baja o salta hacia atrás con control'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Usa los brazos para ganar impulso y mantén las rodillas alineadas.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Jump-Squat_.webp'
     },
 
     {
       id: 19,
       title: 'Sentadilla sumo',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Principiante',
+      muscles: ['Glúteos, aductores, cuádriceps'],
+      equipo: 'Peso corporal o mancuerna/kettlebell',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Coloca los pies más abiertos que los hombros, puntas ligeramente hacia afuera',
+        'Baja en sentadilla manteniendo el torso erguido',
+        'Sube apretando los glúteos',
+        'Repite sin cerrar las rodillas'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Perfecta para trabajar glúteo medio y aductores con buena técnica.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Kettlebell-Sumo-Deadlift_.webp'
     },
 
     {
       id: 20,
       title: 'Kettlebell Swings',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Glúteos, isquios, core'],
+      equipo: 'Kettlebell',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Sujeta el kettlebell con ambas manos',
+        'Flexiona la cadera hacia atrás (no las rodillas)',
+        'Impulsa el kettlebell hacia el frente con la cadera',
+        'Controla la bajada y repite'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'El poder viene de la cadera, no de los brazos. Mantén el core firme.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Kettlebell-Swing_.webp'
     },
 
     {
       id: 21,
       title: 'Knee Tucks Jump',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Cuádriceps, glúteos, core'],
+      equipo: 'Peso corporal',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Parte de pie con pies al ancho de hombros',
+        'Salta elevando las rodillas hacia el pecho',
+        'Aterriza suavemente con control',
+        'Repite sin perder la forma'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Usa tus brazos para impulsarte y mantén el abdomen firme.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Knee-Tuck-Jumps_.webp'
     },
 
     {
       id: 22,
       title: 'Leg Extensions en maquina',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Principiante',
+      muscles: ['Cuádriceps'],
+      equipo: 'Máquina de extensiones de piernas',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Siéntate en la máquina y ajusta el respaldo',
+        'Coloca los pies detrás del rodillo',
+        'Extiende las piernas hasta que estén rectas',
+        'Baja lentamente sin soltar el peso'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'No bloquees completamente las rodillas al extender.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Leg-Extension_.webp'
     },
     {
       id: 23,
       title: 'Prensa de piernas',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Cuádriceps, glúteos, isquiotibiales'],
+      equipo: 'Prensa de piernas',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Siéntate y coloca los pies en la plataforma al ancho de hombros',
+        'Flexiona las piernas bajando el peso hacia el pecho',
+        'Empuja con los talones para regresar',
+        'Controla el movimiento en todo momento'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'No lleves las rodillas muy cerca del pecho para evitar curvar la espalda baja.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Leg-Press_.webp'
     },
 
     {
       id: 24,
       title: 'Zancadas',
-      difficulty: 'Avanzado',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Cuádriceps, glúteos, isquiotibiales'],
+      equipo: ' Peso corporal o mancuernas',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Da un paso largo hacia adelante',
+        'Flexiona ambas rodillas a 90°',
+        'Empuja con el pie delantero para volver',
+        'Alterna piernas'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Mantén el torso recto y no dejes que la rodilla sobrepase los dedos del pie.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Lunge_.webp'
     },
 
     {
       id: 25,
       title: 'Femoral acostado en maquina',
-      difficulty: 'Principiante',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['squiotibiales'],
+      equipo: 'Máquina de curl femoral acostado',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Acuéstate boca abajo en la máquina',
+        'Ajusta los rodillos justo sobre los talones',
+        'Flexiona las rodillas llevando los talones hacia los glúteos',
+        'Baja lentamente'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'No levantes las caderas durante la ejecución.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Lying-Leg-Curl_.webp'
     },
 
@@ -1026,31 +1026,31 @@ export const exercisesData: Record<string, Exercise[]> = {
       id: 26,
       title: 'Abductor en maquina',
       difficulty: 'Principiante',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      muscles: ['Glúteo medio, glúteo menor'],
+      equipo: 'Máquina de abducción',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Siéntate en la máquina con la espalda recta',
+        'Coloca las piernas contra los apoyos exteriores',
+        'Abre las piernas empujando hacia los lados',
+        'Regresa lentamente sin juntar por completo'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Mantén el movimiento controlado y no te apoyes demasiado en el respaldo.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Seated-Hip-Abduction-Machine_.webp'
     },
 
     {
       id: 27,
       title: 'Leg Curl sentado en maquina',
-      difficulty: 'Principiante',
-      muscles: ['Gluteos', 'Bíceps','Hombro posterior'],
-      equipo: 'Mancuerna + banco (o superficie estable)',
+      difficulty: 'Intermedio',
+      muscles: ['Isquiotibiales'],
+      equipo: 'Máquina de curl de piernas sentado',
       steps: [
-        'Apoya una mano y rodilla en un banco',
-        'Agarra la mancuerna con la mano libre',
-        'Mantén la espalda recta y lleva el peso hacia tu cadera',
-        'Baja controladamente a la posición inicial'
+        'Siéntate y ajusta el respaldo y rodillos',
+        'Coloca los tobillos detrás del rodillo inferior',
+        'Flexiona las rodillas bajando el peso',
+        'Regresa lentamente sin soltar la tensión'
         ],
-      tip: 'Mantén el hombro estable y evita girar el torso al levantar la mancuerna.',
+      tip: 'Mantén la espalda apoyada y no balancees el cuerpo.',
       imageUrl: 'https://raw.githubusercontent.com/DevDinamics/baco_de_imagenes_guia/refs/heads/main/pierna/Seated-Leg-Curl_.webp'
     },
 

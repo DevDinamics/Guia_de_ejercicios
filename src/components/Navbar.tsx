@@ -18,9 +18,6 @@ const Navbar = () => {
       
       <div className="flex space-x-6">
 
-        <Link href="#" className="font-black text-white hover:text-[#FFA100] transition-colors">
-          Blog
-        </Link>
         <Link href="../Acerca_de" className="font-black text-white hover:text-[#FFA100] transition-colors">
           Acerca de la guía
         </Link>

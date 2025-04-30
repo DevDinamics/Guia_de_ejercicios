@@ -21,7 +21,7 @@ export default function MuscleGroupGrid() {
           href={`/grupo/${group.name.toLowerCase()}`}
           passHref
         >
-          <div className="bg-[#FFFFFF] p-6 rounded-lg shadow-md  hover:bg-[#FFA100] hover:shadow-lg cursor-pointer">
+          <div className="bg-[#FFA100] p-6 rounded-lg shadow-md  hover:bg-[#FFFFFF] hover:shadow-lg cursor-pointer">
             <div className="flex items-center cursor-pointer">
               <div className="flex-1">
                 {}

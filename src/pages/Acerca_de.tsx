@@ -36,7 +36,7 @@ const AboutPage = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-md prose max-w-none">
             <p className="text-lg mb-4">
-              Fitgo Smart Guide es una guía 100% digital pensada para ayudarte a entrenar de
+              Nuestra guia es 100% digital pensada para ayudarte a entrenar de
               forma segura y efectiva.
             </p>
 

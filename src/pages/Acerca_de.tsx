@@ -9,7 +9,7 @@ const AboutPage = () => {
   return (
     <>
       <Head>
-        <title>Acerca de la Guía Fitgo</title>
+        <title>Acerca de la Guía Fitgo Smart Guide</title>
         <meta
           name="description"
           content="Información sobre la guía de ejercicios Fitgo"
@@ -36,7 +36,7 @@ const AboutPage = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-md prose max-w-none">
             <p className="text-lg mb-4">
-              Fitgo es una guía 100% digital pensada para ayudarte a entrenar de
+              Fitgo Smart Guide es una guía 100% digital pensada para ayudarte a entrenar de
               forma segura y efectiva.
             </p>
 

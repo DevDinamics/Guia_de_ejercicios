@@ -13,7 +13,7 @@ const Navbar = () => {
       height={70}
       className="rounded-full"
     />
-        <span className="text-xl font-bold text-white">Fitgo</span> 
+        <span className="text-xl font-bold text-white">Fitgo Smart Guide</span> 
       </div>
       
       <div className="flex space-x-6">

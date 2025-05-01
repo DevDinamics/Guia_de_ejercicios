@@ -31,7 +31,7 @@ const AboutPage = () => {
           </div>
 
           <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            Acerca de la guía Fitgo
+            Acerca de la guía 
           </h1>
 
           <div className="bg-white p-6 rounded-lg shadow-md prose max-w-none">

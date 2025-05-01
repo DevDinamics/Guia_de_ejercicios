@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
+import ScrollToTopButton from '../components/ScrollToTopButton';
+
 
 const AboutPage = () => {
   return (
@@ -83,16 +85,17 @@ const AboutPage = () => {
 
 
       <footer className="w-full bg-white py-8">
-        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-          <p className="text-black">&copy; 2025 Fitgo | design by: Arm</p>
+      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
+          <p className="text-black">&copy; 2025 Fitgo </p>
+          <p className="text-rigth text-black ">design by: Arm </p>
           <a href="#" className="text-black hover:text-gray-600 no-underline">
-            fitgosport.mx@gmail.com
-            <p className="text-black text-rigth no-underline">56-34-05-20-28</p>
+              fitgosport.mx@gmail.com
           </a>
           
 
         </div>
       </footer>
+      <ScrollToTopButton />
 
     </>
   );

@@ -6,6 +6,7 @@ export default function Document() {
       <Head />
         <link rel="icon" href="images/logo_Fitgo.png" />
         <body className="antialiased">
+          
         <Main />
         <NextScript />
       </body>

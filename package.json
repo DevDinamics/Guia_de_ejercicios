@@ -1,5 +1,3 @@
-
-
 {
   "name": "guia-ejercicios",
   "version": "0.1.0",
@@ -12,13 +10,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-
   "homepage": "https://DevDinamics.github.io/Guia_de_ejercicios",
-
   "dependencies": {
     "next": "15.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

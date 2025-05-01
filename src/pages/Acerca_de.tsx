@@ -80,6 +80,20 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
+
+
+      <footer className="w-full bg-white py-8">
+        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
+          <p className="text-black">&copy; 2025 Fitgo | design by: Arm</p>
+          <a href="#" className="text-black hover:text-gray-600 no-underline">
+            fitgosport.mx@gmail.com
+            <p className="text-black text-rigth no-underline">56-34-05-20-28</p>
+          </a>
+          
+
+        </div>
+      </footer>
+
     </>
   );
 };

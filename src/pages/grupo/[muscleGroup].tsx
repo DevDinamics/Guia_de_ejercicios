@@ -6,6 +6,7 @@ import SearchBar from '../../components/SearchBar';
 import BackButton from '../../components/BackButton';
 import Head from 'next/head';
 import Navbar from '../../components/Navbar';
+import ScrollToTopButton from '../../components/ScrollToTopButton';
 
 
 
@@ -68,6 +69,8 @@ const MuscleGroupPage: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <ScrollToTopButton />
     </>
   );
 };
